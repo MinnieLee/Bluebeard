@@ -83,48 +83,48 @@ function clearStatusClass(element) {
 
 const questions = [
     {
-        question: 'What was Little Red Riding Hood carrying to her grandmother house?',
+        question: 'What does Bluebeard give his wife before leaving the castle?',
         answers: [
-            { text: 'basket of flowers', correct: false },
-            { text: 'basket of food', correct: true },
-            { text: 'basket of toys', correct: false },
-            { text: 'basket of books', correct: false }
+            { text: 'A treasure map', correct: false },
+            { text: 'A set of keys', correct: true },
+            { text: 'A list of rules', correct: false },
+            { text: 'A golden chest', correct: false }
         ]
     },
     {
-        question: 'Who reached the grandmother’s house first?',
+        question: 'What is the wife forbidden from doing?',
         answers: [
-            { text: 'Little Red Riding Hood', correct: false },
-            { text: 'The wolf', correct: true },
-            { text: 'The huntsman', correct: false },
-            { text: 'The grandmother herself', correct: false }
+            { text: 'Leaving the castle', correct: false },
+            { text: 'Cooking a specific meal', correct: false },
+            { text: 'Using a particular key', correct: true },
+            { text: 'Talking to strangers', correct: false }
         ]
     },
     {
-        question: 'How was the wolf defeated in most versions of the story?',
+        question: 'What does the wife discover in the forbidden room?',
         answers: [
-            { text: 'Little Red Riding Hood outsmarts him', correct: false },
-            { text: 'The grandmother defeats him', correct: false },
-            { text: 'A huntsman or lumberjack saves the day', correct: true },
-            { text: 'The wolf simply leaves', correct: false }
+            { text: 'A hidden treasure', correct: false },
+            { text: 'A magical mirror', correct: false },
+            { text: 'A portal to another world', correct: false },
+            { text: 'The bodies of Bluebeard’s previous wives', correct: true }
         ]
     },
     {
-        question: 'What lesson does "Little Red Riding Hood" teach?',
+        question: 'How does the wife signal for help when Bluebeard plans to kill her?',
         answers: [
-            { text: 'Always share your food with strangers', correct: false },
-            { text: 'Wolves are misunderstood creatures', correct: false },
-            { text: 'Always carry a weapon', correct: false },
-            { text: 'Never stray off the path or talk to strangers', correct: true }
+            { text: 'By asking her brothers to visit', correct: true },
+            { text: 'By shouting from the tower', correct: false },
+            { text: 'By sending a letter', correct: false },
+            { text: 'By using a secret code', correct: false }
         ]
     },
     {
-        question: 'What happens to the grandmother in older versions of the story?',
+        question: 'What happens to Bluebeard at the end of the story?',
         answers: [
-            { text: 'She is eaten by the wolf', correct: true },
-            { text: 'She runs away and hides', correct: false },
-            { text: 'She defeats the wolf herself', correct: false },
-            { text: 'She is saved by Little Red Riding Hood', correct: false }
+            { text: 'He is forgiven and changes his ways', correct: false },
+            { text: 'He escapes and is never seen again', correct: false },
+            { text: 'He is overpowered and killed by the wife’s brothers', correct: true },
+            { text: 'He surrenders and leaves the castle', correct: false }
         ]
     }
 ]
